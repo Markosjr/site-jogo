@@ -31,7 +31,7 @@ nav ul {
 }
 
 nav a {
-    color: #f8d57e;
+     color: var(--dourado);
     text-decoration: none;
     font-size: 1.2rem;
     padding: 8px 12px;
@@ -40,7 +40,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #9f5b3c;
+    background-color: var(--vermelho-destaque);
     color: #fff;
 }
 
@@ -82,13 +82,12 @@ input, textarea, button {
 }
 
 button {
-    background-color: #9f5b3c;
+    background-color: var(--vermelho-destaque);
     color: white;
-    cursor: pointer;
 }
 
 button:hover {
-    background-color: #c77350;
+      background-color: #a9322e;
 }
 
 footer {
@@ -100,8 +99,8 @@ footer {
 
 .mensagem-sucesso {
     display: none;
-    color: #f8d57e;
-    background-color: #2f1e1e;
+     background-color: #3a2020;
+    color: var(--dourado);
     padding: 10px;
     margin-top: 15px;
     border-radius: 5px;
